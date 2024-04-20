@@ -150,10 +150,14 @@
   <ItemGroup>
     <ClInclude Include="CelestialBody.h" />
     <ClInclude Include="CelestialRing.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="textures\test.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SolarSystem.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -523,6 +523,9 @@ void drawScene(void)
 	// Push identity matrix on stack
 	glLoadIdentity();
 
+	// Scale up entities to minimap viewport size
+	glScalef(1.5, 1.0, 1.0);
+
 	// Disable lighting for this viewport
 	glDisable(GL_LIGHTING);
 
